@@ -14,7 +14,6 @@ class Triangle
   # binding.pry
   def kind 
     valid_triangle
-    
     if a == b && b == c
       :equilateral
     elsif a == b || a == c || b == c
